@@ -8,6 +8,6 @@ class CFStreamLaravel extends CFStream
 {
     public function __construct()
     {
-        parent::__construct(config('cloudflare.key'), config('cloudflare.zone'), config('cloudflare.email'));
+        parent::__construct(config('cfstream.key'), config('cfstream.zone'), config('cfstream.email'));
     }
 }

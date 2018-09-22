@@ -7,7 +7,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     public function boot()
     {
         $this->publishes([
-        	__DIR__.'/config/cloudflare.php' => config_path('cloudflare.php'),
+        	__DIR__.'/config/cfstream.php' => config_path('cfstream.php'),
         ]);
     }
 }
