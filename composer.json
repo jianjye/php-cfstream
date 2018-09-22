@@ -1,0 +1,32 @@
+{
+    "name": "jjsee/php-cfstream",
+    "description": "Manage Cloudflare Stream uploads.",
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/support": "^5.7"
+    },
+    "authors": [
+        {
+            "name": "See Jian Jye",
+            "email": "seejianjye@gmail.com"
+        }
+    ],
+    "keywords": [
+        "cloudflare",
+        "stream",
+        "cloudflare stream"
+    ],
+    "autoload": {
+        "psr-4": {
+            "JJSee\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JJSee\\CFStream\\Laravel\\ServiceProvider"
+            ]
+        }
+    }
+}
