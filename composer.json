@@ -1,6 +1,6 @@
 {
     "name": "jjsee/php-cfstream",
-    "description": "Manage Cloudflare Stream uploads.",
+    "description": "Upload and manage Cloudflare Stream easily",
     "require": {
         "php": ">=5.5",
         "guzzlehttp/guzzle": "^6.3",
@@ -12,10 +12,13 @@
             "email": "seejianjye@gmail.com"
         }
     ],
+    "homepage": "https://github.com/jjsee/php-cfstream",
+    "license": "MIT",
     "keywords": [
-        "cloudflare",
-        "stream",
-        "cloudflare stream"
+        "cfstream",
+        "php-cfstream",
+        "cloudflare stream",
+        "jjsee"
     ],
     "autoload": {
         "psr-4": {
