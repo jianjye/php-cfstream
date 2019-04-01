@@ -72,3 +72,9 @@ $cfstream->code($resourceUrl);
 $cfstream->allow($resourceUrl, 'example.com, *.example.net');
 $cfstream->delete($resourceUrl);
 ```
+
+## Changelog
+
+### 2019-04-02 - Namespace Changed
+
+The namespace of this project has been updated from `JJSee` to `JianJye`. Please update your projects accordingly. 
