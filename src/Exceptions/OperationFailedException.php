@@ -1,3 +1,5 @@
-namespace JJSee\CFStream\Exceptions;
+<?php
+
+namespace JianJye\CFStream\Exceptions;
 
 class OperationFailedException extends \Exception {}
