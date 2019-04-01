@@ -1,5 +1,5 @@
 <?php
 
-namespace JJSee\CFStream\Exceptions;
+namespace JianJye\CFStream\Exceptions;
 
 class InvalidOriginsException extends \Exception {}

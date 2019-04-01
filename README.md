@@ -18,7 +18,7 @@ PHP CFStream is a PHP TUS client that makes it easy to send video files to Cloud
 Install the package via Composer as usual. Use the `dev-master` branch.
 
 ```
-composer require jjsee/php-cfstream dev-master
+composer require jianjye/php-cfstream dev-master
 ```
 
 #### Laravel 5.0+ 
@@ -29,7 +29,7 @@ For Laravel 5.0 and newer projects, you can do `vendor:publish` to enable basic 
 php artisan vendor:publish 
 ```
 
-Then select `Provider: JJSee\CFStream\Laravel\ServiceProvider`. `cfstream.php` will be copied to your `config` folder.
+Then select `Provider: JianJye\CFStream\Laravel\ServiceProvider`. `cfstream.php` will be copied to your `config` folder.
 
 After that, add these into your `.env` file:
 
@@ -46,7 +46,7 @@ CLOUDFLARE_EMAIL=
 If you are on composer-enabled projects, the following instructions should work for you. Otherwise try requiring `src/CFStream.php` directly in your project instead.
 
 ```
-use JJSee\CFStream\CFStream;
+use JianJye\CFStream\CFStream;
 
 $cfstream = new CFStream($key, $zone, $email);
 
@@ -62,7 +62,7 @@ $cfstream->delete($resourceUrl);
 If you have done the `vendor:publish` step, then `CFStream` can grab your credentials from the config file. You can use the `CFStreamLaravel` client instead.
 
 ```
-use JJSee\CFStream\CFStreamLaravel;
+use JianJye\CFStream\CFStreamLaravel;
 
 $cfstream = new CFStreamLaravel();
 

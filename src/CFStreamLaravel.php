@@ -1,6 +1,6 @@
 <?php
 
-namespace JJSee\CFStream;
+namespace JianJye\CFStream;
 
 use GuzzleHttp\Client;
 
